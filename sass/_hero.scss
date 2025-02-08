@@ -1,13 +1,12 @@
 .hero{
     
     // height: 474px;
-    background-color: hotpink;
-    background-color: aqua;
+    
+    display: flex;
     margin-top: 59px;
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 50px;
-    
     &__image{
         img{
             max-width: 100%;
