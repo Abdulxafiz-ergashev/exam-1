@@ -1,0 +1,129 @@
+.container{
+    max-width: 1338px;
+    width: 100%;
+    background: dodgerblue;
+    // padding: 0 39px 39px;
+
+.about{
+    
+    // height: 474px;
+    margin-top: 59px;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    gap: 50px;
+    
+    &__context{
+        align-items: center;
+        display: flex;
+        gap: 100px;   
+        background: darkgoldenrod;    
+    }
+    &__title{
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        display: flex;
+    }
+    &__titles{
+        // width: 630px;
+        font-size: 14px;
+        color: #8F95A5;
+        font-weight: 400;
+        // display:inline-table;
+        border: 1px solid red;
+        
+    }
+    &__image{
+        width: 500px;
+        height: auto;
+        display: flex;
+        border: 1px solid red;
+    }
+    
+    
+
+
+
+
+@media (max-width:992px) {
+    .about{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .image{
+        width: 336px;
+        height: 336px;
+    }
+    .title{
+        font-size: 36px;
+    }
+    .titles{
+        // width: 539px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:767px) {
+    .about{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .image{
+        width: 295px;
+        // height: 295px;
+        
+        
+    }
+    .title{
+        font-size: 30px;
+    }
+    .titles{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:575px) {
+    .about{
+        grid-template-columns: 1fr
+    }
+    
+    .image{
+        width: 352px;
+        // height: 353px;
+        // display: flex;
+        // margin: 0 auto;
+    }
+    .title{
+        text-decoration: none;
+        background: dodgerblue;
+        
+    }
+    .titles{
+        font-size: 14px;
+        // text-align: center;
+        
+    }
+
+}
+@media (max-width:320px) {
+    .about{
+        // padding: 0 16px;
+        grid-template-columns: 1fr
+    
+    }
+    
+    .image{
+        width: 283px;
+        // height: 283px;
+        // display: flex;
+        margin: 0 auto;
+    }
+    .title{
+        font-size: 24px;
+        // text-align: center;
+    }
+    .titles{
+        font-size: 14px;
+        // text-align: center;
+    }
+}
+}
+}
