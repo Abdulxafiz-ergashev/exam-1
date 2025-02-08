@@ -1,0 +1,156 @@
+.container{
+    max-width: 1338px;
+}
+.pricing{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    padding: 0 16px;
+    item{
+        width: 310px;
+        padding: 10px;
+        gap: 30px;
+        
+    }
+    &__image{
+        img{
+            object-fit: cover;
+            margin-top: 30px;
+        }
+    }
+    &__image1{
+        object-fit: cover;
+        margin-bottom: 42px;
+        margin-top: 30px;
+    }
+    // &__body{
+    //     width: 310px;
+       
+    // }
+    &__sub-title{
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #8F95A5;
+        margin-bottom: 20px;
+       
+    }
+    &__title{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 25px;
+        // font-family: "Tenor";
+        
+    }
+    .btn2{
+        width: 240px;
+        height: 45px;
+        background:#EEEEEE;
+        border-radius: 5px;
+        border: none;
+    }
+    &__sub-title5{
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #8F95A5;
+        margin-bottom: 60px;
+       
+    }
+    
+} 
+
+
+
+
+@media (max-width:990px) {
+    .pricing{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .image{
+        width: 222px;
+    }
+    .image1{
+        width: 222px;
+    }
+    .pricing__title{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .pricing__sub-title5{
+        text-align: center;
+        display: flex;
+    }
+    
+}
+
+@media (max-width:767px) {
+    .pricing{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .image{
+        width: 195px;
+    }
+    .image1{
+        width: 195px;
+    }
+    .pricing__title{
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .pricing__sub-title5{
+        font-size: 14px;
+        text-align: center;
+        display: flex;
+    }
+    .btn2{
+        width: 170px;
+        height: 33px;
+    }
+}
+
+@media (max-width:575px) {
+    .pricing__item{
+        align-items: center;
+        padding: 0 40px;
+    }
+    .pricing{
+        grid-template-columns:1fr
+    }
+    .image{
+        width: 291px;
+        
+        
+    }
+    .image1{
+        width: 291px;
+    }
+    .pricing__title{
+        font-size: 24px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .pricing__sub-title5{
+        font-size: 14px;
+        text-align: center;
+        display: flex;
+    }
+    .btn2{
+        align-items: center;
+        margin: 0 auto;
+        width: 205px;
+    }
+}
+// @media (max-width:750px) {
+//     .pricing{
+//         grid-template-columns: repeat(2, 1fr);
+//     }
+    
+// }
+
+@media (max-width:600px) {
+    .pricing{
+        grid-template-columns: 1fr;
+    }
+    
+}

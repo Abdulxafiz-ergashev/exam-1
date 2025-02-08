@@ -1,7 +1,14 @@
+.txt{
+   text-align: center;
+   margin-top: 200px;
+   font-size: 48px;
+   font-weight: 700;
+}
+
 .container{
     max-width: 1338px;
     width: 100%;
-    background: dodgerblue;
+   
     // padding: 0 39px 39px;
 
 .about{
@@ -16,7 +23,8 @@
         align-items: center;
         display: flex;
         gap: 100px;   
-        background: darkgoldenrod;    
+        background: darkgoldenrod;
+        
     }
     &__title{
         font-size: 22px;
@@ -113,7 +121,7 @@
     .image{
         width: 283px;
         // height: 283px;
-        // display: flex;
+        
         margin: 0 auto;
     }
     .title{

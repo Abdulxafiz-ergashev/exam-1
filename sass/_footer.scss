@@ -1,0 +1,15 @@
+.container{
+    width: 1338px;
+}
+.footer{
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        margin-top: 20px;
+    }
+    .text{
+        font-size: 24px;
+        font-weight: 400px;
+    }
+}
