@@ -134,6 +134,15 @@
 .btn:hover {
     background: #1b1b21
 }
+.chiroq{
+    /* width: 70px;
+    height: 80px; */
+    right: 20px;
+    
+    margin-right: 90px;
+    align-items: center;
+    margin-bottom: 250px;
+}
 
 @media(max-width: 992px) {
     .container {
@@ -248,6 +257,9 @@
     .texts {
         font-size: 16px;
         text-align: center
+    }
+    .chiroq{
+        display: none;
     }
 }
 
