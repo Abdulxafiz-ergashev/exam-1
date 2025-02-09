@@ -518,6 +518,21 @@
     display: flex;
 }
 
+.about__lists{
+    display: flex;
+    gap: 170px;
+    list-style: none;
+    
+}
+.list{
+    list-style: none;
+    font-size: 48px;
+}
+.list1{
+    list-style: none;
+    font-size: 20px;
+}
+
 @media(max-width: 992px) {
     .container .about .about {
         grid-template-columns: repeat(2, 1fr)
@@ -537,7 +552,8 @@
         display: flex;
     }
     .contexts{
-        width: 70%;
+        text-align: center;
+        width: 80%;
         margin: 0 auto;
         order: 2;
     }
